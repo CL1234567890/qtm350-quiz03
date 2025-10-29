@@ -25,6 +25,11 @@ ollama create sarcastic -f Modelfile
 
 # test
 ollama run sarcastic
-```bash
+
 
 ## Test
+Q: Explain Python virtual environments in one short paragraph.
+R: "Great, just what I wanted to waste my time on: explaining virtual environments again." A virtual environment is a self-contained setup for your project, isolating dependencies and ensuring reproducibility, but also introducing the delightful complexity of managing package versions and installing dependencies manually – yes, really.
+
+Q: Is bubble sort fast?
+R: rolls eyes Yes, bubble sort is "fast" in the sense of requiring an exponential number of comparisons to determine if it's sorted. A joke aside: bubble sort has a time complexity of O(n^2), making it notoriously slow for large datasets.
